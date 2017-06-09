@@ -1570,6 +1570,7 @@
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			text-align: center!important;
 		}
 
 		body.is-article-visible #footer {
@@ -1586,4 +1587,8 @@
 
 		body.is-loading #footer {
 			opacity: 0;
+		}
+
+		#pIntro {
+			text-align: justify;
 		}

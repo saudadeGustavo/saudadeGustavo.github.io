@@ -314,6 +314,30 @@
 
 				});
 
+				$('#botaoHermesPardini').on('click', function(event){
+					window.open('https://play.google.com/store/apps/details?id=br.com.hermespardini.app&hl=pt_BR', '_blank');
+				});
+
+				$('#botaoCredz').on('click', function(event){
+					window.open('https://play.google.com/store/apps/details?id=br.com.credz.consultaapp&hl=pt_BR', '_blank');
+				});
+
+				$('#botaoDelboni').on('click', function(event){
+					window.open('https://play.google.com/store/apps/details?id=br.com.delboni.DelboniApp&hl=pt_BR', '_blank');
+				});
+
+				$('#botaoApiCredZ').on('click', function(event){
+					window.open('https://www.credz.com.br/portal', '_blank');
+				});
+
+				$('#botaoPortalHermes').on('click', function(event){
+					window.open('http://www3.hermespardini.com.br/pagina/1959/home.aspx', '_blank');
+				});
+
+				$('#botaoAlta').on('click', function(event){
+					window.open('https://play.google.com/store/apps/details?id=br.com.alta.AltaApp&hl=pt_BR', '_blank');
+				});
+
 				$window.on('keyup', function(event) {
 
 					switch (event.keyCode) {

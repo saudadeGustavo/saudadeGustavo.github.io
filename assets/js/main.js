@@ -338,6 +338,23 @@
 					window.open('https://play.google.com/store/apps/details?id=br.com.alta.AltaApp&hl=pt_BR', '_blank');
 				});
 
+				$('#btnSend').on('click', function(event){
+					var name = $('#name').val();
+					var email = $('#email').val();
+					var message = $('#message').val();
+
+					emailjs.send("gmail","template_GFXSAUmV",
+            {
+                subject_name: "Mensagem do Portfolio",
+                from_name: name,
+                message_html: message,
+                from_email: email
+            });
+
+					alert("mensagem enviada para o desenvolvedor!");
+					window.open('/index.html', "_self");
+				});
+
 				$window.on('keyup', function(event) {
 
 					switch (event.keyCode) {

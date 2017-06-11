@@ -8,7 +8,7 @@
   <li>+WORKS: Apps e sites desenvolvidos por mim</li>
   <li>CONTATO: Envie uma mensagem para o desenvolvedor</li>
 </ul>
-##### OPÇÕES
+<strong>OPÇÕES</strong>
 <ul>
   <li>Design Responsivo</li>
   <li>Veja esse template em celulares ou tablets</li>

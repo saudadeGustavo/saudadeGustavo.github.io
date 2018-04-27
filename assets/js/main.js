@@ -347,17 +347,21 @@
 					var email = $('#email').val();
 					var message = $('#message').val();
 
-					emailjs.send("gmail","template_GFXSAUmV",
-            {
-                subject_name: "Mensagem do Portfolio",
-                from_name: name,
-                message_html: message,
-                from_email: email
-            });
+					if(name.length === 0 || email.length === 0 || message.length === 0) {
+						alert("Preencha todos os campos da mensagem por favor.");
+					} else {
+						emailjs.send("gmail","template_GFXSAUmV",
+							{
+								subject_name: "Mensagem do Portfolio",
+								from_name: name,
+								message_html: message,
+								from_email: email
+							});
 
-					alert("mensagem enviada para o desenvolvedor!");
-					window.open('/index.html', "_self");
-				});
+							alert("mensagem enviada para o desenvolvedor!");
+							window.open('/index.html', "_self");
+						}
+					});
 
 				$window.on('keyup', function(event) {
 

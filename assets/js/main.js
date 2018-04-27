@@ -314,6 +314,10 @@
 
 				});
 
+				$('#botaoSicredi').on('click', function(event){
+					window.open('https://play.google.com/store/apps/details?id=br.com.sicredimobi.smart', '_blank');
+				});
+
 				$('#botaoHermesPardini').on('click', function(event){
 					window.open('https://play.google.com/store/apps/details?id=br.com.hermespardini.app&hl=pt_BR', '_blank');
 				});
